@@ -15,7 +15,7 @@
 
     </div>
 
-    <div id="TcHmiLinearGauge" data-tchmi-type="tchmi-linear-gauge" data-tchmi-base-animation-time="1000" data-tchmi-height="96" data-tchmi-height-unit="px" data-tchmi-label-range="200" data-tchmi-left="524" data-tchmi-left-unit="px" data-tchmi-show-labels="True" data-tchmi-show-ticks="True" data-tchmi-show-value-text="True" data-tchmi-start-from-zero="True" data-tchmi-top="98" data-tchmi-top-unit="px" data-tchmi-width="360" data-tchmi-width-unit="px" data-tchmi-editable="True" data-tchmi-value="%s%PLC1.MAIN.x|BindingMode=TwoWay|BindingEvent=onValueChanged%/s%" data-tchmi-unit="X Axis" data-tchmi-max-value="220">
+    <div id="TcHmiLinearGauge" data-tchmi-type="tchmi-linear-gauge" data-tchmi-base-animation-time="1000" data-tchmi-height="96" data-tchmi-height-unit="px" data-tchmi-label-range="40" data-tchmi-left="524" data-tchmi-left-unit="px" data-tchmi-show-labels="False" data-tchmi-show-ticks="False" data-tchmi-show-value-text="True" data-tchmi-start-from-zero="True" data-tchmi-top="98" data-tchmi-top-unit="px" data-tchmi-width="360" data-tchmi-width-unit="px" data-tchmi-editable="True" data-tchmi-value="%s%PLC1.MAIN.x|BindingMode=TwoWay|BindingEvent=onValueChanged%/s%" data-tchmi-unit="X Axis" data-tchmi-max-value="220">
 
         <script data-tchmi-target-attribute="data-tchmi-value-format" type="application/json">
             {
@@ -25,11 +25,11 @@
             }
         </script>
         <script data-tchmi-target-attribute="data-tchmi-tick-definition" type="application/json">
-            {
-            "mainTickRange": 200.0,
-            "subTickRange": 50.0
-            }
-        </script>
+{
+  "mainTickRange": 20.0,
+  "subTickRange": 10.0
+}
+</script>
 
     
 <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
@@ -39,7 +39,7 @@
 </script>
 </div>
 
-    <div id="TcHmiLinearGauge_1" data-tchmi-type="tchmi-linear-gauge" data-tchmi-base-animation-time="1000" data-tchmi-height="96" data-tchmi-height-unit="px" data-tchmi-label-range="200" data-tchmi-left="524" data-tchmi-left-unit="px" data-tchmi-show-labels="True" data-tchmi-show-ticks="True" data-tchmi-show-value-text="True" data-tchmi-start-from-zero="True" data-tchmi-top="194" data-tchmi-top-unit="px" data-tchmi-width="360" data-tchmi-width-unit="px" data-tchmi-editable="True" data-tchmi-value="%s%PLC1.MAIN.y|BindingMode=TwoWay|BindingEvent=onValueChanged%/s%" data-tchmi-unit="Y Axis" data-tchmi-max-value="130">
+    <div id="TcHmiLinearGauge_1" data-tchmi-type="tchmi-linear-gauge" data-tchmi-base-animation-time="1000" data-tchmi-height="96" data-tchmi-height-unit="px" data-tchmi-label-range="40" data-tchmi-left="524" data-tchmi-left-unit="px" data-tchmi-show-labels="False" data-tchmi-show-ticks="False" data-tchmi-show-value-text="True" data-tchmi-start-from-zero="True" data-tchmi-top="194" data-tchmi-top-unit="px" data-tchmi-width="360" data-tchmi-width-unit="px" data-tchmi-editable="True" data-tchmi-value="%s%PLC1.MAIN.y|BindingMode=TwoWay|BindingEvent=onValueChanged%/s%" data-tchmi-unit="Y Axis" data-tchmi-max-value="130">
 
         <script data-tchmi-target-attribute="data-tchmi-value-format" type="application/json">
             {
@@ -49,11 +49,11 @@
             }
         </script>
         <script data-tchmi-target-attribute="data-tchmi-tick-definition" type="application/json">
-            {
-            "mainTickRange": 200.0,
-            "subTickRange": 50.0
-            }
-        </script>
+{
+  "mainTickRange": 20.0,
+  "subTickRange": 10.0
+}
+</script>
 
     
 <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
@@ -63,7 +63,7 @@
 </script>
 </div>
 
-    <div id="TcHmiLinearGauge_2" data-tchmi-type="tchmi-linear-gauge" data-tchmi-base-animation-time="1000" data-tchmi-height="96" data-tchmi-height-unit="px" data-tchmi-label-range="200" data-tchmi-left="524" data-tchmi-left-unit="px" data-tchmi-show-labels="True" data-tchmi-show-ticks="True" data-tchmi-show-value-text="True" data-tchmi-start-from-zero="True" data-tchmi-top="290" data-tchmi-top-unit="px" data-tchmi-width="360" data-tchmi-width-unit="px" data-tchmi-editable="True" data-tchmi-value="%s%PLC1.MAIN.z|BindingMode=TwoWay|BindingEvent=onValueChanged%/s%" data-tchmi-unit="Z Axis" data-tchmi-max-value="193">
+    <div id="TcHmiLinearGauge_2" data-tchmi-type="tchmi-linear-gauge" data-tchmi-base-animation-time="1000" data-tchmi-height="96" data-tchmi-height-unit="px" data-tchmi-label-range="40" data-tchmi-left="524" data-tchmi-left-unit="px" data-tchmi-show-labels="False" data-tchmi-show-ticks="False" data-tchmi-show-value-text="True" data-tchmi-start-from-zero="True" data-tchmi-top="290" data-tchmi-top-unit="px" data-tchmi-width="360" data-tchmi-width-unit="px" data-tchmi-editable="True" data-tchmi-value="%s%PLC1.MAIN.z|BindingMode=TwoWay|BindingEvent=onValueChanged%/s%" data-tchmi-unit="Z Axis" data-tchmi-max-value="193">
 
         <script data-tchmi-target-attribute="data-tchmi-value-format" type="application/json">
             {
@@ -73,11 +73,11 @@
             }
         </script>
         <script data-tchmi-target-attribute="data-tchmi-tick-definition" type="application/json">
-            {
-            "mainTickRange": 200.0,
-            "subTickRange": 50.0
-            }
-        </script>
+{
+  "mainTickRange": 20.0,
+  "subTickRange": 10.0
+}
+</script>
 
     
 <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">

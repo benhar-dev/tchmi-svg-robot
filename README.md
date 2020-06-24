@@ -1,4 +1,4 @@
-# Example SVG Robot using only Javascript and HTML
+# Example SVG Robot using only JavaScript and HTML
 
 ## Disclaimer
 This is a personal guide not a peer reviewed journal or a sponsored publication. We make
@@ -15,10 +15,12 @@ always subject to change, revision, and rethinking at any time. Please do not ho
 in perpetuity.
 
 ## Overview 
-Demo of showing a method of using Javascript and HTML to show live movement of a robot.
+Demo of showing a method of using JavaScript and HTML to show live movement of a robot.
 
 This example is just a thought experiment and ideally a framework control would serve as a more reusable solution to this problem.
-SVG are also not ideal as the geometry is in 2d.
+SVG are also not ideal as the geometry is in 2D.
+
+![Robot moving to sliders](docs/gif/Example.gif)
 
 ## Install 
 Not required.  Simply open the project.
@@ -32,6 +34,7 @@ This is not a guide for TcXaeShell, please visit http://beckhoff.com/ for furthe
 * Login and set the PLC running
 * Open the HMI in live view
 
-## Acknowledgements
+## Acknowledgments
+http://lesolutions.com.au/ - Hamish Lucas of Lucas Electronic Solutions for the concept
 https://vectr.com/ - Vector creation and export
-http://pojo.sodhanalibrary.com/ - Online convert html to javascript variable
+http://pojo.sodhanalibrary.com/ - Online convert HTML to FavaScript variable

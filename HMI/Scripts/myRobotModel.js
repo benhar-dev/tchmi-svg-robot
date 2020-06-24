@@ -19,6 +19,10 @@
             __Y: 0,
             __Z: 0,
 
+            scaleX: 2.20,
+            scaleY: 1.30,
+            scaleZ: 1.93,
+
             svgHtml: '<svg' +
                 '  version="1.1"' +
                 '  xmlns="http://www.w3.org/2000/svg"' +
@@ -660,20 +664,20 @@
 
             xChanged(value) {
                 console.log("x " + value);
-                self.__X = value;
+                self.__X = value * self.scaleX;
                 self.update()             
 
             },
 
             yChanged(value) {
                 console.log("y " + value);
-                self.__Y = value;
+                self.__Y = value * self.scaleY;
                 self.update()   
             },
 
             zChanged(value) {
                 console.log("z " + value);
-                self.__Z = value;
+                self.__Z = value * self.scaleZ;
                 self.update()   
             },
 
